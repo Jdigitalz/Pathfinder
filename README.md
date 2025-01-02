@@ -1,10 +1,7 @@
-# Pathfinder
+# Pathfinder 🧭
 
 A simple CLI utility made in Python that allows you to get the full file path of a file and copy it to your clipboard on Wayland devices.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
 
 ## Installation
 
@@ -18,13 +15,17 @@ A simple CLI utility made in Python that allows you to get the full file path of
     ```bash
     sudo apt install wl-clipboard
     ```
-
-3. Install using `setup.py`:
+    - For arch linux users
     ```bash
-    sudo python setup.py install
+    sudo pacman -S wl-clipboard
     ```
 
-(Optional) Add Pathfinder to your shell config:
+3. Install using `install.sh` (may appear as if it is frozen, it is not):
+    ```bash
+    ./install.sh
+    ```
+##
+Uninstallation of pathfinder:
 ```bash
-alias pathto="pathfinder "
-
+./uninstall.sh
+```
